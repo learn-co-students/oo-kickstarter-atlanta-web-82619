@@ -1,7 +1,7 @@
 describe 'Backer - ::new' do
   it 'takes a name on initialization, accessible through an attribute reader' do
-    backer = Backer.new("Avi")
-    expect(backer.name).to eq("Avi")
+    backer = Backer.new("Ash")
+    expect(backer.name).to eq("Ash")
   end
 
   it 'initializes with a @backed_projects attribute, an empty array' do
